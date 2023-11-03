@@ -25,4 +25,4 @@ function sumMinMax(arr: number[]): void {
     console.log(`${minSum} ${maxSum}`);
 }
 
-sumMinMax([3, 4, 5, 6, 7]);
+sumMinMax([3, 4, 5, 6, 8]);

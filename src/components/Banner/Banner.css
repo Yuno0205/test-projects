@@ -1,0 +1,25 @@
+/* Banner */
+
+.banner {
+    height: 300px;
+    margin-top: 20px;
+    background-color: #29b363;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.banner h1,
+.banner p {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .banner h1 {
+        font-weight: 200;
+    }
+}

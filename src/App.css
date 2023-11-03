@@ -1,0 +1,34 @@
+/* Reset css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Container */
+
+.wrapper {
+    width: 100%;
+
+    padding: 0;
+}
+
+.container {
+    padding: 10px 0;
+}
